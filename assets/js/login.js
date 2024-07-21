@@ -21,7 +21,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
         // Hide loading spinner
         loaderWrapper.style.display = 'none';
 
-        if (email === 'chukwunoyelummesoma1@gmail.com' && password === 'fiesttal') {
+        if (email === 'alvinconnal1960@gmail.com' && password === 'alvinconnal196012345') {
             // Correct credentials, redirect to dashboard.html
             window.location.href = '/dashboard.html';
         } else {
