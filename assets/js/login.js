@@ -30,3 +30,5 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
         }
     }, 2000); // Simulate a 2-second delay for demonstration
 });
+
+

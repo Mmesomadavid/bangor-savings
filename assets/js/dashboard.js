@@ -76,3 +76,21 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
   
+
+  document.addEventListener('DOMContentLoaded', function() {
+    const menuButton = document.querySelector('.app-header-mobile .icon-button');
+    const navigation = document.querySelector('.app-body-navigation');
+  
+    // Add event listener to the menu button
+    menuButton.addEventListener('click', function() {
+      navigation.classList.toggle('show');
+    });
+  });
+  
+
+  const menuIcon = document.querySelector('.app-header-mobile button');
+  const navbar = document.querySelector('.app-body-navigation');
+  
+  menuIcon.addEventListener('click', () => {
+    navbar.classList.toggle('active');
+  });
