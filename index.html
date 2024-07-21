@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bangor Savings Bank</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/styles.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cuprum:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap"
+    rel="stylesheet">
+
+  <!-- Preload Images -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">Bangor Savings Bank</a>
+
+      <nav class="navbar" data-navbar>
+        <div class="wrapper">
+          <a href="#" class="logo">Bangor Savings Bank</a>
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <!-- <ul class="navbar-list">
+          <li><a href="#home" class="navbar-link" data-nav-link>Home</a></li>
+          <li><a href="#about" class="navbar-link" data-nav-link>About Us</a></li>
+          <li><a href="#services" class="navbar-link" data-nav-link>Services</a></li>
+          <li><a href="#locations" class="navbar-link" data-nav-link>Locations</a></li>
+          <li><a href="#news" class="navbar-link" data-nav-link>News</a></li>
+          <li><a href="#contact" class="navbar-link" data-nav-link>Contact Us</a></li>
+        </ul> -->
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <a href="/login.html" class="btn-outline">Customer Login</a>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- Hero Section -->
+    <section class="section hero" id="home" aria-label="hero">
+      <div class="container">
+        <div class="hero-content">
+          <p class="hero-subtitle has-before">Welcome to Bangor Savings Bank</p>
+          <h1 class="h1 hero-title">Discover Secure Banking Solutions</h1>
+          <p class="hero-text">
+            Explore our range of financial services tailored to meet your banking needs. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit.
+          </p>
+          <div class="btn-group">
+            <a href="/login.html" class="btn btn-primary">Login to your account</a>
+            <button class="flex-btn">
+              <div class="btn-icon">
+                <ion-icon name="play" aria-hidden="true"></ion-icon>
+              </div>
+              <span class="span">How It Works</span>
+            </button>
+          </div>
+        </div>
+        <figure class="hero-banner has-before img-holder" style="--width: 650; --height: 650;">
+          <img src="https://www.bangor.com/BSB/media/Images/Maine-ABLE.png" width="650" height="650" alt="hero banner" class="img-cover">
+        </figure>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about" aria-label="about">
+      <div class="container">
+        <figure class="about-banner">
+          <img src="https://www.bangor.com/getmedia/014e2007-102e-4b58-ae77-fd1a41adc990/Home-Left-Carousel_Communities.png?width=706&height=640&ext=.png" width="802" height="654" loading="lazy" alt="about banner"
+            class="w-100">
+        </figure>
+        <div class="about-content">
+          <h2 class="h2-sm section-title">About Bangor Savings Bank</h2>
+          <p class="section-text">
+            Bangor Savings Bank has been serving the community for over 100 years, providing exceptional banking
+            services and financial solutions.
+          </p>
+          <ul class="about-list">
+            <li class="has-before">Personalized banking solutions</li>
+            <li class="has-before">Community-focused initiatives</li>
+            <li class="has-before">Secure and reliable services</li>
+          </ul>
+          <div class="btn-group">
+            <a href="#" class="btn btn-primary">Learn More</a>
+            <button class="flex-btn">
+              <div class="btn-icon">
+                <ion-icon name="medal-outline" aria-hidden="true"></ion-icon>
+              </div>
+              <span class="span">100+ Years of Excellence</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section service" id="services" aria-label="service">
+      <div class="container">
+        <p class="section-subtitle text-center">Our Services</p>
+        <h2 class="h2 section-title text-center">Explore Our Offerings</h2>
+        <p class="section-text text-center">
+          Discover our comprehensive range of banking services designed to meet your financial goals.
+        </p>
+        <ul class="grid-list">
+          <li>
+            <div class="service-card has-after">
+              <figure class="card-icon">
+                <img src="https://www.shutterstock.com/image-vector/microfinance-icon-eps-10-file-260nw-1439291327.jpg" width="140" height="140" loading="lazy"
+                  alt="Personal Banking Services" class="img">
+              </figure>
+              <div class="card-content">
+                <h3 class="h3 card-title">Personal Banking Services</h3>
+                <p class="card-text">
+                  Personal banking services cater to individual financial needs, including savings accounts, checking accounts, loans, and personal financial planning.
+                </p>
+                <a href="#" class="btn-link">
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="service-card has-after">
+              <figure class="card-icon">
+                <img src="https://cdn.vectorstock.com/i/1000v/32/06/dollar-money-icon-with-bag-vector-2193206.jpg" width="140" height="140" loading="lazy"
+                  alt="Business Banking Solutions" class="img">
+              </figure>
+              <div class="card-content">
+                <h3 class="h3 card-title">Business Banking Solutions</h3>
+                <p class="card-text">
+                  Business banking solutions encompass a range of services tailored for businesses, such as business accounts, loans, merchant services, payroll solutions, and business credit cards.
+                </p>
+                <a href="#" class="btn-link">
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="service-card has-after">
+              <figure class="card-icon">
+                <img src="https://cdn5.vectorstock.com/i/1000x1000/93/84/banker-icon-vector-22979384.jpg" width="140" height="140" loading="lazy"
+                  alt="Investment Advisory Services" class="img">
+              </figure>
+              <div class="card-content">
+                <h3 class="h3 card-title">Investment Advisory Services</h3>
+                <p class="card-text">
+                  Investment advisory services provide professional guidance and management of investments, including stocks, bonds, mutual funds, and retirement planning, aimed at achieving financial goals.
+                </p>
+                <a href="#" class="btn-link">
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="service-card has-after">
+              <figure class="card-icon">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Mobile-Smartphone-icon.png" width="140" height="140" loading="lazy"
+                  alt="Online and Mobile Banking" class="img">
+              </figure>
+              <div class="card-content">
+                <h3 class="h3 card-title">Online and Mobile Banking</h3>
+                <p class="card-text">
+                  Online and mobile banking services enable customers to manage their finances conveniently through digital platforms, including account management, bill payments, transfers, and mobile check deposits.
+                </p>
+                <a href="#" class="btn-link">
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    
+
+   
+
+   
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" data-footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <a href="#" class="logo">Bangor Savings Bank</a>
+        </div>
+      </div>
+      <p class="copy">© 2024 Bangor Savings Bank. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="/assets/js/app.js"></script>
+
+</body>
+
+</html>
